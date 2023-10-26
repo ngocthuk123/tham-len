@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css"> <!--Phần này là khai báo carousel -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <script src="jquery.min.js"></script> <!--Phần này là thư việc jquery cần phải lên tải về -->
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+               
+            })
+        });
+    </script>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <a href="http://">
+                <img src="images/anh1.png" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="http://">
+                <img src="images/anh2.png" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="http://">
+                <img src="images/anh3.png" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="http://">
+                <img src="images/anh4.jpg" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="http://">
+                <img src="images/anh1.png" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="http://">
+                <img src="images/anh2.png" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="http://">
+                <img src="images/anh3.png" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="http://">
+                <img src="images/anh4.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

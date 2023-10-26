@@ -1,0 +1,541 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    user-select: none;
+}
+
+.not-display {
+    display: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ====================================HEADER========================= */
+
+#header {
+    position: fixed;
+    top: 0px;
+    z-index: 9999;
+}
+
+/* header fixed  */
+
+.header-fixed {
+    padding-bottom: 116px;
+}
+
+.background-top {
+    width: 100vw;
+}
+
+.main-menu-fixed {
+    width: 100vw;
+    background-color: white;
+
+}
+
+/* ---------------------------Menu-top--------------------  */
+.background-top {
+    height: 34px;
+    background-color: #dddddd;
+}
+
+.menu-top {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto 0px;
+    padding-top: 5px;
+
+}
+
+
+
+.left-top-header li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.left-top-header li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.left-top-header li i {
+    cursor: pointer;
+
+}
+
+.left-top-header li:nth-child(2) {
+    border-left: 1px solid rgb(204, 199, 199);
+    border-right: 1px solid rgb(204, 199, 199);
+
+}
+
+.left-top-header {
+    display: flex;
+    position: relative;
+
+}
+
+.right-top-header a.sdt {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+#search-form {
+    position: absolute;
+    bottom: -16px;
+    right: 0px;
+    display: none;
+    z-index: 99999;
+
+}
+
+
+
+.display {
+    display: block !important;
+}
+
+.search-box {
+    position: relative;
+
+}
+
+.search-box input {
+    width: 272px;
+    border: 1px solid rgb(205, 202, 202);
+    margin-right: 0px;
+    padding-right: 0px;
+
+}
+
+#search-form button {
+    background-color: #dcd3d3;
+    border: 1px solid rgb(205, 202, 202);
+    position: absolute;
+    right: 0px;
+    height: 28px;
+    padding: 0px 0px;
+    width: 28px;
+
+}
+
+#search-form button:hover {
+    background-color: #c0bbbb;
+
+
+
+}
+
+.left-top-header-search {
+    display: flex;
+}
+
+/* ------------------responsive-menu-top-------------------- */
+
+.background-top-responsive {
+    background-color: #dddddd;
+    height: 34px;
+}
+
+.menu-top-responsive {
+    padding-top: 5px;
+}
+
+.background-top-responsive .left-top-header {
+    justify-content: center;
+}
+
+
+
+/*------------------------------- Menu main --------------------------- */
+li.nav-item {
+    padding-left: 6px;
+    padding-right: 6px;
+
+}
+
+li.nav-item a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+a.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #DD9933 !important;
+}
+
+.main-menu-right {
+    display: flex;
+}
+
+.main-menu-right i {
+    color: black;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+.main-menu-right i:hover {
+    color: #DD9933;
+
+
+}
+
+.main-menu-right .user {
+    border-right: 1px solid rgb(214, 210, 210);
+
+}
+
+.user a i {
+    color: black !important;
+    padding-left: 12px;
+}
+
+.login a i {
+    color: black !important;
+    padding-right: 12px;
+    border-right: 1px solid rgb(198, 196, 196);
+}
+
+/* -------------- Main menu responsive-------  */
+
+.main-menu-responsive {
+    display: none !important;
+}
+
+.main-menu-responsive button {
+    border: 1px solid grey !important;
+
+
+}
+
+.main-menu-responsive button i {
+    color: grey;
+
+
+}
+
+.nav-respondsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-responsive i {
+    color: black;
+}
+
+/* ===============END HEADER ============== */
+/* =============CAROUSEL-SLIDE================ */
+.carousel-top .text-inner {
+    margin-bottom: 200px;
+}
+
+.carousel-top .carousel-inner img {
+    height: 500px;
+}
+
+/* ==================================BODY=========================== */
+
+/*------------------info-top-------------------- */
+.info-top-content:hover {
+    box-shadow: 15px 15px 8px rgb(212, 206, 206);
+}
+
+.info-top-content p {
+    font-size: 14px;
+}
+
+.info-top img {
+    max-width: 60px;
+    justify-content: center;
+}
+
+.info-top .card-title {
+    font-weight: bold;
+}
+
+.info-top .card-text {
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+/* =====card content==== */
+
+a.card-link {
+    color: rgb(172, 116, 33);
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(201, 192, 180);
+}
+
+.card-mobile {
+    display: none !important;
+}
+
+/* card-product */
+.card-product .card-title {
+    font-size: 13px;
+}
+
+.card-product .card-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.card-product .card-text {
+    color: #DD9933;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.watch-product {
+    padding: 10px;
+    background-color: #DD9933;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* ---carousel post---  */
+
+.carousel-post .carousel-indicators {
+    bottom: -60px;
+}
+
+.carousel-post .carousel-item {
+    height: 370px;
+}
+
+.carousel-post .carousel-control-prev,
+.carousel-post .carousel-control-next {
+    background-color: rgb(227, 222, 222);
+    width: 30px;
+    opacity: 0.8;
+}
+
+.carousel-post i {
+    color: black;
+}
+
+.date-post {
+    font-size: 10px;
+    color: grey;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    border-bottom: 2px solid grey;
+
+}
+
+.ca-post-content {
+    font-size: 13px;
+    color: rgb(55, 53, 53);
+
+}
+
+.carousel-post .card-body {
+    padding: 0.5rem !important;
+}
+
+.carousel-post .card-title {
+    margin-bottom: 0.25rem !important;
+}
+
+.read-more {
+    font-size: 10px;
+    border-bottom: 2px solid #DD9933;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+
+.read-more :hover {
+    color: black;
+
+}
+
+.card a.read-more {
+    text-decoration: none;
+
+}
+
+.carousel-post .col-lg-3,
+.carousel-post .col-md-6,
+.carousel-post .col-sm-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+
+
+/* =====================FOOTER===================== */
+
+#main-footer {
+    background-color: #F3F3F3;
+}
+
+.footer-content {
+    padding-top: 50px;
+}
+
+#main-footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#main-footer ul li a {
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+
+}
+
+#main-footer ul li a:hover {
+    text-decoration: none;
+    color: black;
+
+}
+
+.social i {
+    font-size: 30px;
+    color: black;
+}
+
+.social a.fb i:hover {
+    color: blue;
+}
+
+/* =====================COPY-RIGHT===================== */
+.copy-right {
+    background-color: #e8e8e8;
+    text-align: center;
+    color: rgb(71, 69, 69);
+    font-size: 10px;
+
+}
+
+.copy-right p {
+    margin-bottom: 0px;
+    font-size: 14px;
+
+}
+
+.background-top-responsive {
+    display: none;
+}
+
+
+/* ================RESPONSIVE=================== */
+@media (max-width: 1200px) {
+    /* ---MAIN-MENU-RESPONSIVE-- */
+
+    .main-menu-responsive {
+        display: block !important;
+    }
+
+    /* ---MAIN-MENU--- */
+    .main-menu {
+        display: none !important;
+    }
+
+
+}
+
+
+
+@media(max-width: 992px) {
+
+    .background-top {
+        display: none;
+    }
+
+    .background-top-responsive {
+        display: block !important;
+    }
+
+
+
+
+
+
+    /* ----CAROUSEL SLIDE--  */
+
+    .carousel-top .carousel-inner img {
+        height: 250px;
+    }
+
+    .carousel-top .text-inner {
+        margin-bottom: 0px;
+    }
+
+    /* =====card content==== */
+    .card-content .card-desktop {
+        display: none !important;
+    }
+
+    .card-content .card-mobile {
+        display: block !important;
+    }
+
+
+
+    /* ====carousel post=== */
+
+    .carousel-post .carousel-inner {
+        height: 382px;
+    }
+
+    .carousel-post .card {
+        margin-left: 15px;
+    }
+
+    .carousel-post .carousel-control-prev,
+    .carousel-post .carousel-control-next {
+        background-color: rgb(227, 222, 222);
+        width: 30px;
+        opacity: 0.1;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width: 768px) {
+    .carousel-post .carousel-inner {
+        height: 450px;
+    }
+}
+
+@media(max-width: 576px) {
+    .carousel-post .carousel-inner {
+        height: 450px;
+    }
+}
